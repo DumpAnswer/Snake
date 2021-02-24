@@ -1,26 +1,25 @@
-﻿using ConsoleApp3;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ConsoleApp3;
 
 namespace ConsoleApp3
 {
-    class HorizanLine : Figure
+    class Snake : Figure
     {
-        public HorizanLine(int xLeft, int xRight, int y, char sym)
+
+
+        public Snake(Point tail, int lenght, Direction direction)
         {
             plist = new List<Point>();
-            for (int x = xLeft; x<= xRight; x++)
+            for(int i = 0; i < lenght; i++)
             {
-                Point p = new Point(x, y, sym);
+                Point p = new Point(tail);
+                p.Move(i, direction);
                 plist.Add(p);
             }
-
         }
-        
-     
-
     }
 }

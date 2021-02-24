@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ConsoleApp3;
 
-namespace Snake
+namespace ConsoleApp3
 {
     class Program
     {
@@ -25,10 +25,9 @@ namespace Snake
             rightLine.Drow();
 
             /// Отрисовка точек
-            Point p1 = new Point(5, 8, '*');
-
-            p1.Draw();
-
+            Point p = new Point(5, 8, '*');
+            Snake snake = new Snake(p, 4, Direction.RIGHT);
+            snake.Drow();
 
             Console.ReadLine();
             
