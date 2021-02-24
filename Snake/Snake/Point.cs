@@ -53,6 +53,11 @@ namespace ConsoleApp3
             }
           
         }
+        public void Clear()
+        {
+            sym = ' ';
+            Draw();
+        }
 
         public void Draw()
         {
