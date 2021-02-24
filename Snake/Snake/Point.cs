@@ -59,6 +59,10 @@ namespace ConsoleApp3
             Draw();
         }
 
+        public bool ItHit(Point p)
+        {
+            return p.x == this.x && p.y == this.y;
+        }
         public void Draw()
         {
 

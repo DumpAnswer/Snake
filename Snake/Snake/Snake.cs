@@ -47,6 +47,21 @@ namespace ConsoleApp3
                 direction = Direction.DOWN;
         }
 
+        internal bool Eat(Point food)
+        {
+            Point head = GetNextPoint();
+            if (head.ItHit(food))
+            {
+                food.sym = head.sym;
+                plist.Add(food);
+                return true;
+            }
+            else
+                return false;
+
+            
+        }
+
         private Point GetNextPoint()
         {
             Point head = plist.Last();
