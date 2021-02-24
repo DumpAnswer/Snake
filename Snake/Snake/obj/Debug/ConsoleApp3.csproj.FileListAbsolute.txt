@@ -5,3 +5,10 @@ C:\Users\kalek\source\repos\ConsoleApp3\obj\Debug\ConsoleApp3.csprojAssemblyRefe
 C:\Users\kalek\source\repos\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
 C:\Users\kalek\source\repos\ConsoleApp3\obj\Debug\ConsoleApp3.exe
 C:\Users\kalek\source\repos\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
+C:\Users\kalek\Desktop\Snake\Snake1\Snake\Snake\bin\Debug\ConsoleApp3.exe.config
+C:\Users\kalek\Desktop\Snake\Snake1\Snake\Snake\bin\Debug\ConsoleApp3.exe
+C:\Users\kalek\Desktop\Snake\Snake1\Snake\Snake\bin\Debug\ConsoleApp3.pdb
+C:\Users\kalek\Desktop\Snake\Snake1\Snake\Snake\obj\Debug\ConsoleApp3.csprojAssemblyReference.cache
+C:\Users\kalek\Desktop\Snake\Snake1\Snake\Snake\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\kalek\Desktop\Snake\Snake1\Snake\Snake\obj\Debug\ConsoleApp3.exe
+C:\Users\kalek\Desktop\Snake\Snake1\Snake\Snake\obj\Debug\ConsoleApp3.pdb
