@@ -29,9 +29,22 @@ namespace ConsoleApp3
             Point p = new Point(5, 8, '*');
             Snake snake = new Snake(p, 4, Direction.RIGHT);
             snake.Drow();
-            snake.Move();
-          
-            Console.ReadLine();
+            ///Удаление курсора
+            Console.CursorVisible = false;
+
+            //// Управление змейкой
+            while (true)
+            {
+                if (Console.KeyAvailable)
+                {
+
+                    ConsoleKeyInfo key = Console.ReadKey(true);
+                    snake.Handle(key.Key);
+                }
+                Thread.Sleep(100);
+                snake.Move();
+            }
+            
             
 
 
