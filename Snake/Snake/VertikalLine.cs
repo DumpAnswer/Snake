@@ -7,14 +7,8 @@ using Snake;
 
 namespace ConsoleApp3
 {
-    class VertikalLine
+    class VertikalLine : Figure
     {
-        List<Point> plist;
-
-
-
-
-
         public VertikalLine(int yUp, int yDawn, int x, char sym)
         {
             plist = new List<Point>();
@@ -25,12 +19,6 @@ namespace ConsoleApp3
             }
         }
 
-        public void Drow()
-        {
-            foreach (Point p in plist)
-            {
-                p.Draw();
-            }
-        }
+    
     }
 }
